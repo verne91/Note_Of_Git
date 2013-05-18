@@ -21,7 +21,20 @@ GitHub是使用Git作为唯一工具的远程版本控制服务平台。因为Gi
 
 ![project deploy key][3]
 
+##创建主页##
+###个人主页###
+如[GotGitHub][4]所说,GitHub为每个用户分配了一个二级域名<user-id>.github.com，只需要在GitHub的账号下创建一个名为<user-id>.github.com的版本库，向其master分支提交网站静态网页即可，其中网站首页为index.html。
+
+    git clone git@github.com:YourGitHubAccount/YourGitHubAccount.github.com.git
+    git add index.html
+    git commit -m "your comment"
+    git push origin master
+
+推送后可能有延迟，但是只要等一段时间，既可以通过访问http://YourGitHubAccount.github.com/访问到你的主页
+    
+
 [1]:./images/SSH_generation.jpg "公钥私钥生成"
 [2]:./images/GitHub_SSH_Key_Setting.JPG "GitHub SSH公钥设置"
 [3]:./images/GitHub_Add_Project_Key.JPG "GitHub Add project deploy key"
+[4]:http://www.worldhello.net/gotgithub/03-project-hosting/050-homepage.html
 
