@@ -123,6 +123,7 @@
     git tag -d YourTagName
 
 删除远程版本库里程碑：
+
     git push origin :YourTagName
 
 [1]:http://www.open-open.com/lib/view/open1328069889514.html
