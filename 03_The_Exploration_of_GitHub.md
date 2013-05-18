@@ -7,6 +7,7 @@ GitHub是使用Git作为唯一工具的远程版本控制服务平台。因为Gi
 
     ssh-keygen -C "YourEmailAccount@something.com" -t rsa
 
+如下图
 ![如图][1]
-[1]:./image/SSH_generation.jpg "公钥私钥生成"
+[1]:./images/SSH_generation.jpg "公钥私钥生成"
 
