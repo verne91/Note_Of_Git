@@ -22,6 +22,6 @@ GitHub是使用Git作为唯一工具的远程版本控制服务平台。因为Gi
 ![project deploy key][3]
 
 [1]:./images/SSH_generation.jpg "公钥私钥生成"
-[2]:./images/GitHub_SSH_Key_Setting.jpg "GitHub SSH公钥设置"
-[3]:./images/GitHub_Add_Project_key.jpg "GitHub Add project deploy key"
+[2]:./images/GitHub_SSH_Key_Setting.JPG "GitHub SSH公钥设置"
+[3]:./images/GitHub_Add_Project_key.JPG "GitHub Add project deploy key"
 
